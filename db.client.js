@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  'postgres://fakeurl', // TODO
+  'postgresql://esgi_cloud_exam_postgre_47798_user:FRfGiMlyBWwbllesZS0phUAeLAd3FTFE@dpg-cv3ao13tq21c73bi8ajg-a/esgi_cloud_exam_postgre_47798', // TODO
   {
     dialectOptions: {
       ssl: {
